@@ -1,5 +1,4 @@
-# Morph Bottom Navigation  
-[![](https://jitpack.io/v/TalebRafiepour/BottomNavigation.svg)](https://jitpack.io/#TalebRafiepour/BottomNavigation)
+# Morph Bottom Navigation 
 
 
 This library represents a Bottom Navigation with an awesome morph effect on top of the selected item.
@@ -21,7 +20,7 @@ Don't forget to star the project if you like it!
 #### Gradle
 ```Gradle
 dependencies {
-    implementation 'com.github.TalebRafiepour:BottomNavigation:1.0.2'
+    implementation 'com.github.TalebRafiepour:BottomNavigationView:0.0.1'
 }
 
 
