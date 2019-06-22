@@ -46,6 +46,7 @@ allprojects {
     app:morphCornerRadius="128dp"
     app:morphItemRadius="64dp"
     app:morphVerticalOffset="8dp"
+    app:fontAssetSrc="fonts/IranSans.ttf"
     style="@style/BottomNavigationView"
     />
 ```
