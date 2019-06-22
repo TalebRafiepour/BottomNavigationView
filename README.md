@@ -50,6 +50,25 @@ allprojects {
     />
 ```
 
+
+### In your styles
+```
+<style name="BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemBackground">@drawable/background_bottom_nav_item</item>
+        <item name="itemIconTint">@drawable/color_bottom_nav_item</item>
+        <item name="itemTextColor">@drawable/color_bottom_nav_item</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigation.Overline</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigation.Overline</item>
+        <item name="textAllCaps">true</item>
+        <item name="paddingStart">32dp</item>
+        <item name="paddingEnd">32dp</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigation.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textSize">8sp</item>
+    </style>
+```
+
 #### Custom Attributes
 | Attribute | Description |
 | --- | --- |
