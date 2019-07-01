@@ -164,7 +164,8 @@
       app:menu="@menu/menu_bottom_navigation"
       app:morphCornerRadius="128dp"
       app:morphItemRadius="64dp"
-      app:morphVerticalOffset="8dp"
+      app:morphVerticalOffset="0dp"
+      app:labelVisibilityMode="labeled"
       app:fontAssetSrc="fonts/fontTest.ttf"
       style="@style/BottomNavigationView"
       />

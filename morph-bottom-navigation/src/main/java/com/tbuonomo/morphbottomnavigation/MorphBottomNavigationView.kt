@@ -96,7 +96,8 @@ class MorphBottomNavigationView : BottomNavigationView, OnNavigationItemSelected
     fontSrc = a.getString(R.styleable.MorphBottomNavigationView_fontAssetSrc)
     a.recycle()
 
-    height = dpToPx(56f)
+    height = resources.getDimension(com.google.android.material.R.dimen.design_bottom_navigation_height)
+
 
 
     bottomNavigationMenuView = getChildAt(0) as BottomNavigationMenuView
@@ -151,7 +152,6 @@ class MorphBottomNavigationView : BottomNavigationView, OnNavigationItemSelected
     var item: BottomNavigationItemView
     var itemTitle: View
     val shiftingMode: Field
-
 
     try {
       //if you want to disable shiftingMode:
