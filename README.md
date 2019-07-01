@@ -20,7 +20,7 @@ Don't forget to star the project if you like it!
 #### Gradle
 ```Gradle
 dependencies {
-    implementation 'com.github.TalebRafiepour:BottomNavigationView:0.0.1'
+    implementation 'com.github.TalebRafiepour:BottomNavigationView:0.0.2'
 }
 
 
@@ -69,6 +69,23 @@ allprojects {
         <item name="android:textSize">8sp</item>
     </style>
 ```
+
+### Or If You Want To Responsive Dimen Then You Can Use Below Dimen To Override
+
+```
+<dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
+<dimen name="design_bottom_navigation_active_item_min_width">96dp</dimen>
+<dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
+<dimen name="design_bottom_navigation_elevation">8dp</dimen>
+<dimen name="design_bottom_navigation_height">56dp</dimen>
+<dimen name="design_bottom_navigation_icon_size">24dp</dimen>
+<dimen name="design_bottom_navigation_item_max_width">96dp</dimen>
+<dimen name="design_bottom_navigation_item_min_width">56dp</dimen>
+<dimen name="design_bottom_navigation_margin">8dp</dimen>
+<dimen name="design_bottom_navigation_shadow_height">1dp</dimen>
+<dimen name="design_bottom_navigation_text_size">12sp</dimen>
+```
+
 
 #### Custom Attributes
 | Attribute | Description |
